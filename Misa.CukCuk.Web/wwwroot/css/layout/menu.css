@@ -1,0 +1,84 @@
+﻿
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    border-left: 1px solid #bbbbbb;
+}
+
+.menu .logo {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 1px solid #bbbbbb; 
+}
+/*Logo*/
+    .menu .logo .icon-bar {
+        width: 30px;
+        height: 30px;
+        background-image: url('../../content/img/toggle.png');
+        background-size:contain;
+        margin-right:10px;
+        
+    }
+
+    .menu .logo .icon-page {
+        width: 130px;
+        height: 30px;
+        background-image: url('../../content/img/cukcuk-logo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+.menu .menu_content{
+    position:relative;
+    width:100%;
+    height:100% - 60px;
+    
+}
+.menu .menu_content .menu_item {
+    display:flex;
+    width:100%;
+    height:60px;
+    align-items: center;
+    cursor:pointer;
+}
+    .menu .menu_content .menu_item:hover {
+        background-color: #e5e5e5e5;
+    }
+    .menu .menu_content .menu_icon {
+        margin-left:14px;
+        width: 24px;
+        height: 24px;
+ 
+        background-size:contain;
+        background-repeat:no-repeat;
+    }
+    .menu .menu_content .menu_text {
+        margin-left:10px;
+    }
+
+.icon_gen {
+    background-image: url('../../content/icon/dashboard.png');
+}
+.icon_rep {
+    background-image: url('../../content/icon/report.png');
+}
+.icon_buy {
+    background-image: url('../../content/icon/dashboard.png');
+}
+.icon_list1 {
+    background-image: url('../../content/icon/dic-employee.png');
+}
+.icon_list2 {
+    background-image: url('../../content/icon/dic-employee.png');
+}
+.icon_set {
+    background-image: url('../../content/icon/setting.png');
+}
+
+

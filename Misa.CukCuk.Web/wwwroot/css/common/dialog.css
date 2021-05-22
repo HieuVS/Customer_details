@@ -1,0 +1,108 @@
+﻿.dialog-detail1 {
+    width: 700px;
+    height: auto;
+    padding-left: 12px;
+    flex-grow: 1 !important;
+}
+.dialog-title {
+    font-weight:bold;
+    font-size:15px;
+}
+.dialog-up {
+ /*   flex-grow: 1!important;*/
+    position: relative;
+    height: 545px!important;
+    width: 100%;
+    display: flex;
+    box-sizing: content-box;
+}
+    .dialog-up .avatar {
+        height: 250px;
+        width: 202px;
+        justify-content:center;
+    }
+        .dialog-up .avatar .avatar-img {
+            height: 200px;
+            width: 200px;
+            background-image: url('../../content/img/default-avatar.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }   
+        .dialog-up .avatar .avatar-note {
+            height:50px;
+        }
+    .dialog-up .info {
+        height:auto;
+        width:auto;
+        display:flex;
+    }
+        .dialog-up .info .info-left {
+            margin-right:10px;
+        }
+        .dialog-up .info .info-right {
+            margin-right: 20px;
+        }
+        
+            
+/*.dialog-down {
+    height: 140px;
+    width: 100%;
+    display:flex;
+    margin:15px 0px;
+}
+    .dialog-down .dialog-down-1 {
+        height: 140px;
+        margin-right: 10px;
+    }
+    .dialog-down .dialog-down-2 {
+        height: 140px;
+        margin-right: 20px;
+    }
+
+.dialog-under {
+    height: 54px;
+    width: 100%;
+}*/
+
+.dialog-footer {
+    display: flex;
+    width: 575px;
+    height: 60px;
+    background-color: #e9ebee;
+    border-radius: 0 0 5px 5px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px 24px;
+    box-sizing: border-box;
+}
+
+    .dialog-footer button {
+        margin-left: 16px;
+    }
+
+.label-required {
+    color:red;
+}
+.m-control {
+    height:36px;
+    margin-bottom: 15px;
+}
+.Ma-label {
+    margin-bottom:3px;
+}
+.s-control {
+    width: 180px;
+    height: 30px;
+}
+.i-control {
+    width: 180px;
+    height: 30px;
+}
+.l-control {
+    height:30px;
+    width:385px;
+}
+.longest-control {
+    height:30px;
+    width:575px;
+}
